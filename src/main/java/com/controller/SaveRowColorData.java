@@ -42,7 +42,7 @@ public class SaveRowColorData extends HttpServlet {
             jsonArray = new JSONArray(jsonInputString);
         }
 
-        /* 把陣列拆分成一個一個物件，開始取出資料。 */
+        /* 把陣列裡的[物件元素]一個一個取出來。 */
         for (int i = 0, len = jsonArray.length(); i < len; i++) {
             JSONObject unitObject = (JSONObject) jsonArray.get(i);
             Integer customerObjKey = (Integer) unitObject.get("customerObjKey");
