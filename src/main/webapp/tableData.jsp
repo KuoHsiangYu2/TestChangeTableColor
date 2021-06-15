@@ -24,7 +24,7 @@ table {
 }
 
 .theSelect {
-	
+	color: black;
 }
 </style>
 <title>tableData.jsp</title>

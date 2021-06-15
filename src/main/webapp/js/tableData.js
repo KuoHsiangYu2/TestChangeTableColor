@@ -50,10 +50,8 @@ jQuery('#saveDataButton').on('click', function(event) {
 });
 
 jQuery('#allCheckbox1').on('click', function(event) {
-    /* 全選所有 checkbox */
-    /* https://reurl.cc/xGQVEV */
-    let allCheckboxArray = jQuery('#CustomerTable input:checkbox[name="selectCheckbox"]');
-    let length = allCheckboxArray.length;
+    // 全選所有 checkbox
+    // https://blog.wu-boy.com/2008/12/jquery%E5%88%A4%E6%96%B7-checkbox-%E6%98%AF%E5%90%A6%E9%81%B8%E5%8F%96%EF%BC%8C%E5%AF%A6%E7%8F%BE%E5%85%A8%E9%81%B8%E8%B7%9F%E5%85%A8%E9%83%A8%E5%8F%96%E6%B6%88/
     let checkStatus = jQuery('#allCheckbox1').prop('checked');
     if (true === checkStatus) {
         jQuery('#CustomerTable input:checkbox[name="selectCheckbox"]').prop('checked', true);

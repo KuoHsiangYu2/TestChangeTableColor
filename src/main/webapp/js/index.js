@@ -32,4 +32,3 @@ jQuery('#submitButton').on('click', function (event) {
 });
 
 // http://mirlab.org/jang/books/javascript/password.asp?title=11-1%20%BA%F4%A7}%ABO%C5@
-// https://reurl.cc/5o6xVM
